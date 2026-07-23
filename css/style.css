@@ -36,3 +36,11 @@ nav {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+.nav-account p {
+  margin: 0;
+}
+
+.nav-orders p {
+  margin: 0;
+}
