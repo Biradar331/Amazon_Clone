@@ -1,10 +1,11 @@
 nav {
-  height: 60px;
-  background-color: #131921;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #131921;
+  color: white;
+  height: 60px;
+  padding: 0 20px;
 }
 
 .nav-search form {
@@ -18,4 +19,20 @@ nav {
 
 .nav-search button {
   padding: 10px 15px;
+}
+
+.nav-location {
+  display: flex;
+  align-items: center;
+}
+
+.location-text p {
+  margin: 0;
+}
+
+.logo-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
