@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -48,7 +54,6 @@ nav {
 .hero-section {
   background-image: url("../assets/images/hero-image.jpg");
   height: 350px;
-  border: 2px solid red;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -63,6 +68,13 @@ nav {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .product-card img {
